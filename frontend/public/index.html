@@ -1,0 +1,28 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Tesi</title>
+    <script>
+      (function() {
+        // Estrai i parametri dell'URL
+        const params = new URLSearchParams(window.location.search);
+        const lobbyId = params.get('c'); // Assicurati che il parametro sia 'c'
+
+        if (lobbyId) {
+          // Salva l'lobbyId in una variabile globale per React
+          window.initialLobbyId = lobbyId;
+
+          // Rimuovi l'lobbyId dalla URL
+          window.history.replaceState({}, document.title, "/");
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- I tuoi script di React verranno inseriti qui -->
+  </body>
+</html>

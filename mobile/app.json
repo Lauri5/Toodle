@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "toodle",
+    "slug": "toodle",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.toodle"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.toodle"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [[
+      "expo-build-properties", { "android": { "usesCleartextTraffic": true } }
+    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3a815c0f-6f19-4639-a86c-772ab5132872"
+      }
+    }
+  }
+}
