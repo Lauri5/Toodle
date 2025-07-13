@@ -38,6 +38,7 @@ Unlike the analog games it's inspired by, Toodle gives players the freedom to ge
 /mobile            # React Native mobile application
 /backend             # Backend for real-time game logic and communication
 ```
+> **Note:** The carousel pictures in the `frontend/src/assets` folder have been replaced with emplty pictures.
 
 ## 🚀 Getting Started
 
