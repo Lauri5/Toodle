@@ -1,4 +1,4 @@
-![alt text](https://github.com/frontend/src/assets/logo.svg "Toodle")
+![alt text](https://github.com/Lauri5/Toodle.git/frontend/src/assets/logo.svg "Toodle")
 
 **Create stories together, powered by imagination and modern tech**
 
